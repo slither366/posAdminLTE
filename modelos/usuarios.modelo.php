@@ -18,6 +18,10 @@ class ModeloUsuarios{
 
 		return $stmt -> fetch();
 
+		$stmt -> close();
+
+		$stmt = null;
+
 	}
 	
 
